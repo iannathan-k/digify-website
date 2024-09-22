@@ -98,6 +98,10 @@ body {
     margin: 0 auto;
 }
 
+.gallery-img {
+    width: 100%;
+}
+
 .slider {
     display: flex;
     overflow-x: hidden;
