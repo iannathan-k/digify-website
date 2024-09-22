@@ -4,16 +4,87 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="imagetoolbar" content="no">
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="index.css">
+    <script defer src="app.js"></script>
 	<title>Digify</title>
 </head>
 
 <body>
-    <h1 class="label">Coming Soon!</h1>
-    <p class="text">- Ian, Co-Founder</p>
-    <img src="banner.png" class="banner">
+    <div>
+        <img src="imgs/hero-img.png" class="hero-img hidden">
+        <img src="imgs/logo-text.png" class="logo-text hidden">
+        <h1 class="tagline hidden">DIGITALIZE INDONESIA</h1>
+    </div>
 
+    <div class="line hidden"></div>
+
+    <div class="nav">
+        <a href="" class="nav-button hidden2">Mission & Vision.</a>
+        <a href="#team" class="nav-button hidden2">Meet our team.</a>
+        <a href="#projects" class="nav-button hidden2">Recent Projects.</a>
+    </div>
+
+    <div class="gallery hidden2" id="projects">
+        <div class="gallery-imgs">
+            <div class="slider">
+                <img id="gallery-img-1" src="imgs/gallery-img-1.png">
+                <img id="gallery-img-2" src="imgs/gallery-img-2.png">
+                <img id="gallery-img-3" src="imgs/gallery-img-3.png">
+                <img id="gallery-img-4" src="imgs/gallery-img-4.png">
+                <img id="gallery-img-5" src="imgs/gallery-img-5.png">
+            </div>
+            <div class="slider-nav">
+                <a href="#gallery-img-1"></a>
+                <a href="#gallery-img-2"></a>
+                <a href="#gallery-img-3"></a>
+                <a href="#gallery-img-4"></a>
+                <a href="#gallery-img-5"></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="team" id="team">
+        <h1 class="section-title hidden">Meet Our Team.</h1>
+        <div class="members">
+            <div class="member hidden">
+                <img src="imgs/ian.png" class="member-pfp">
+                <div>
+                    <p class="member-name">Ian Nathan Kusmiantoro</p>
+                    <p class="member-role">Co-Founder</p>
+                    <p class="member-desc"></p>
+                </div>
+            </div>
+            <div class="member hidden">
+                <img src="imgs/albert.png" class="member-pfp">
+                <div>
+                    <p class="member-name">Albert Manzo Ho</p>
+                    <p class="member-role"> Co-Founder</p>
+                    <p class="member-desc"></p>
+                </div>
+            </div>
+            <div class="member hidden">
+                <img src="imgs/tiffany.png" class="member-pfp">
+                <div>
+                    <p class="member-name">Tiffany Angelia</p>
+                    <p class="member-role">Director of Operations</p>
+                    <p class="member-desc"></p>
+                </div>
+            </div>  
+            <div class="member hidden">
+                <img src="imgs/emily.png" class="member-pfp">
+                <div>
+                    <p class="member-name">Emily Razali</p>
+                    <p class="member-role">Director of External Affairs</p>
+                    <p class="member-desc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 
 </html>
